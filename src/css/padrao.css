@@ -1,0 +1,38 @@
+﻿body{ background: url(../img/bg_sac.jpg) no-repeat #DDDDDD fixed; background-size:cover; padding-top:20px; color:#333}
+.logo{ background:url(../img/logo.png) no-repeat center; height: 150px;}
+.conteudo{ background: #191c23; border-radius: 10px; min-height: 600px; ttransition: 1s;color:#fff;	opacity:0.95;	-moz-opacity: 0.95;
+	filter: alpha(opacity=95); position:relative }
+.texto_inicial{ text-align: center;font-family: 'Yellowtail'; margin: 0;}
+.chamada{ background: #ffc600; margin-top: 20px;border-radius: 5px; padding: 10px;}
+.icons{  font-size: 50px; margin: auto; display: block; border: 1px solid #333; width: 72px; padding: 10px; border-radius: 100px; color: #333}
+.escolha{ height: 200px; color: #333; font-weight: bold; cursor: pointer; transition: 1s}
+.escolha:hover{  transform: scale(1.1, 1.1); transition: 0.5s;  border: 5px solid #fff}
+.tipoaluno{ margin:20px auto; font-size: 1.5em; width: 50%; display: block; text-align: center; box-sizing: border-box; }
+.redesocial{ margin: 0; padding: 0; list-style: none; position: absolute; right:-50px;}
+.redesocial li{ display: block;background-color: #333; width: 30px; height: 30px; margin: 8px;overflow: hidden; background:url(../img/sprite.png) no-repeat }
+.redesocial a{ text-decoration: none; outline: none; display: block; text-indent: -200px}
+.facebook{ background-position: 0 0 !important}
+.twitter{ background-position: 0 -30px  !important}
+.youtube{ background-position: 0 -60px  !important}
+.google{ background-position: 0 -90px  !important}
+.facebook:hover{ background-position: -30px 0 !important}
+.twitter:hover{ background-position:  -30px -30px  !important}
+.youtube:hover{ background-position:  -30px -60px  !important}
+.google:hover{ background-position:  -30px -90px  !important}
+.menu_item{transition: 0.5s; cursor: pointer; background-position: center; height: 155px; background-size: 100%;}
+
+.m1{  background:url(../img/ic1.png) no-repeat; }
+	.m1:hover,.m1_ativado{  background:url(../img/ic1_a.png) no-repeat;}
+	.m2{  background:url(../img/ic2.png) no-repeat; }
+		.m2:hover,.m2_ativado{  background:url(../img/ic2_a.png) no-repeat; }
+.m3{  background:url(../img/ic3.png) no-repeat; }
+	.m3:hover,.m3_ativado{  background:url(../img/ic3_a.png) no-repeat;}
+.m4{  background:url(../img/ic4.png) no-repeat;}
+	.m4:hover,.m4_ativado{  background:url(../img/ic4_a.png) no-repeat;}
+.m5{  background:url(../img/ic5.png) no-repeat; }
+	.m5:hover,.m5_ativado{  background:url(../img/ic5_a.png) no-repeat; }
+.m6{  background:url(../img/ic6.png) no-repeat; }
+	.m6:hover,.m6_ativado{  background:url(../img/ic6_a.png) no-repeat; }
+
+	.inicial,.icones,.telas,.saudacao{ display: none}
+	.telas{ margin-top: 30px;}
