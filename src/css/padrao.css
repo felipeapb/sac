@@ -1,6 +1,6 @@
 ﻿body{ background: url(../img/bg_sac.jpg) no-repeat #DDDDDD fixed; background-size:cover; padding-top:20px; color:#333}
 .logo{ background:url(../img/logo.png) no-repeat center; height: 150px;}
-.conteudo{ background: #191c23; border-radius: 10px; min-height: 600px; ttransition: 1s;color:#fff;	opacity:0.95;	-moz-opacity: 0.95;
+.conteudo{ background: #191c23; border-radius: 10px; min-height: 600px; transition: 1s;color:#fff;	opacity:0.95;	-moz-opacity: 0.95;
 	filter: alpha(opacity=95); position:relative }
 .texto_inicial{ text-align: center;font-family: 'Yellowtail'; margin: 0;}
 .chamada{ background: #ffc600; margin-top: 20px;border-radius: 5px; padding: 10px;}
@@ -34,5 +34,9 @@
 .m6{  background:url(../img/ic6.png) no-repeat; }
 	.m6:hover,.m6_ativado{  background:url(../img/ic6_a.png) no-repeat; }
 
-	.inicial,.icones,.telas,.saudacao{ display: none}
+	.inicial,.icones,.telas,.saudacao,.con{ display: none}
 	.telas{ margin-top: 30px;}
+	.pergunta{ background-color: #329CC6; padding: 5px ; margin: 12px 0; border-radius: 5px; cursor: pointer}
+	.pergunta span{ font-size: 8px}
+	.resposta{ padding: 5px; display: none; background-color: #33333B; margin: 0 10px; padding: 10px;}
+	.ativado{display: block;}

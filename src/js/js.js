@@ -2,15 +2,31 @@ $( document ).ready( function(){
 
 	$('.saudacao').delay(500).fadeIn(500);
 	$('.inicial').delay(1500).fadeIn(500);
+		$('.escolha').click(function(){
+			var destino = $(this).attr('data-destino');
+			$('.escolha').slideUp(700);
+			$('.saudacao').slideUp(700);
+			$('.icones').delay(600).slideDown(1000);
+			$('.'+destino).delay(1600).slideDown(1000);
+		});
+//abre sub conteudo
+	$('.m').click(function(){
+			var destino = $(this).attr('data-destino');
+			var classe = $(this).attr('data-classe');
+			$('.m').removeClass('m1_ativado');
+			$('.m').removeClass('m2_ativado');
+			$('.m').removeClass('m3_ativado');
+			$('.m').removeClass('m4_ativado');
+			$('.m').removeClass('m5_ativado');
+			$('.m').removeClass('m6_ativado');
+			$('.con').hide();
+			$('.'+destino).fadeIn(1000);
+			$(this).addClass(classe);
 
-	$('.escolha').click(function(){
-		var destino = $(this).attr('data-destino');
-		$('.escolha').slideUp(700);
-		$('.saudacao').slideUp(700);
-		$('.icones').delay(600).slideDown(1000);
-		$('.'+destino).delay(1600).slideDown(1000);
+
 
 	});
+
 //Abre conteúdo
 	$('.boxitem').click(function(){
 		var destino = $(this).attr('data-dir');
