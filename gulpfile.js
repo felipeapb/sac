@@ -15,7 +15,7 @@ var gulp = require('gulp')
   ,htmlmin = require('gulp-htmlmin');
 // operacoes default
 gulp.task('default', ['copy'], function() {
-	gulp.start('build-img', 'usemin','htmlmin');
+	gulp.start('build-img', 'usemin');
 });
 //copiar pastar para dist
 gulp.task('copy', ['clean'], function() {
@@ -70,8 +70,8 @@ gulp.task('server', function() {
 
 });
 //minimizar html
-gulp.task('htmlmin',['usemin'], function() {
-  return gulp.src('dist/*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('dist'))
-});
+//gulp.task('htmlmin',['usemin'], function() {
+//  return gulp.src('dist/*.html')
+//    .pipe(htmlmin({collapseWhitespace: true}))
+//    .pipe(gulp.dest('dist'))
+//});

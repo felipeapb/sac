@@ -1,4 +1,4 @@
-﻿body{ background: url(../img/bg_sac.jpg) no-repeat #DDDDDD fixed; background-size:cover; padding-top:20px; color:#333;transition: 1s;}
+body{ background: url(../img/bg_sac.jpg) no-repeat #DDDDDD fixed; background-size:cover; padding-top:20px; color:#333;transition: 1s;}
 .logo{ background:url(../img/logo.png) no-repeat center; height: 150px;}
 .conteudo{ background: #191c23; padding-bottom: 60px;border-radius: 10px; min-height: 600px; transition: 1s;color:#fff;	opacity:0.95;	-moz-opacity: 0.95;
 	filter: alpha(opacity=95); position:relative }
