@@ -1,5 +1,4 @@
 $( document ).ready( function(){
-
 	$('.saudacao').delay(500).fadeIn(500);
 	$('.inicial').delay(1500).fadeIn(500);
 		$('.escolha').click(function(){
@@ -17,8 +16,6 @@ $( document ).ready( function(){
 				$('.inicial').delay(1500).fadeIn(500);
 				$('.escolha').delay(1500).slideDown(1000);
 				$('.voltando').hide();
-
-
 			});
 //abre sub conteudo
 	$('.m').click(function(){
@@ -33,11 +30,7 @@ $( document ).ready( function(){
 			$('.con').hide();
 			$('.'+destino).fadeIn(1000);
 			$(this).addClass(classe);
-
-
-
 	});
-
 //Abre conteúdo
 	$('.boxitem').click(function(){
 		var destino = $(this).attr('data-dir');
@@ -67,5 +60,4 @@ $( document ).ready( function(){
 		$('.'+resposta).slideDown(400);
 
 	});
-
 });
