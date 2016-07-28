@@ -1,4 +1,4 @@
-﻿body{ background: url(../img/bg_sac.jpg) no-repeat #DDDDDD fixed; background-size:cover; padding-top:20px; color:#333;transition: 1s;}
+﻿body{ line-height:  2.1em;background: url(../img/bg_sac.jpg) no-repeat #DDDDDD fixed; background-size:cover; padding-top:20px; font-size: 15px;color:#333;transition: 1s;}
 .logo{ background:url(../img/logo.png) no-repeat center; height: 150px;}
 .conteudo{ background: #191c23; padding-bottom: 60px;border-radius: 10px; min-height: 600px; transition: 1s;color:#fff;	opacity:0.95;	-moz-opacity: 0.95;
 	filter: alpha(opacity=95); position:relative }
@@ -41,3 +41,5 @@
 	.resposta{ display: none; background-color: #33333B; margin-top:-10px; margin-left: 10px; margin-right: 10px;margin-bottom: 10px;padding: 10px;}
 	.ativado{display: block;}
 .voltando{ right: 10px; bottom: 10px; position: absolute; display: none}
+h1{ color: #fc0;}
+.hash{ color:#fc0; font-size: 1.2em}
