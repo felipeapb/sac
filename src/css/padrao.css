@@ -43,3 +43,5 @@
 .voltando{ right: 10px; bottom: 10px; position: absolute; display: none}
 h1{ color: #fc0;}
 .hash{ color:#fc0; font-size: 1.2em}
+hr{ opacity:0.15;	-moz-opacity: 0.15;
+	filter: alpha(opacity=15);}
