@@ -5,7 +5,7 @@
 .texto_inicial{ text-align: center;font-family: 'Yellowtail'; margin: 0;}
 .chamada{ background: #ffc600; margin-top: 20px;border-radius: 5px; padding: 10px;}
 .icons{  font-size: 50px; margin: auto; display: block; border: 1px solid #333; width: 72px; padding: 10px; border-radius: 100px; color: #333}
-.escolha{ height: 200px; color: #333; font-weight: bold; cursor: pointer; transition: 1s}
+.escolha{ height: 230px; color: #333; font-weight: bold; cursor: pointer; transition: 1s}
 .escolha:hover{  transform: scale(1.1, 1.1); transition: 0.5s;  border: 5px solid #fff}
 .tipoaluno{ margin:20px auto; font-size: 1.5em; width: 50%; display: block; text-align: center; box-sizing: border-box; }
 .redesocial{ margin: 0; padding: 0; list-style: none; position: absolute; right:-50px;}
@@ -45,3 +45,4 @@ h1{ color: #fc0;}
 .hash{ color:#fc0; font-size: 1.2em}
 hr{ opacity:0.15;	-moz-opacity: 0.15;
 	filter: alpha(opacity=15);}
+	.box_conteudo{ padding: 20px;}
